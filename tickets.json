@@ -1,0 +1,14 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Fix login bug",
+      "description": "Bug has been completely resolved and tested",
+      "status": "closed",
+      "priority": "high",
+      "createdAt": "2025-08-11T17:14:19.695Z",
+      "updatedAt": "2025-08-11T17:16:17.400Z"
+    }
+  ],
+  "nextId": 3
+}
