@@ -44,7 +44,7 @@ export const TicketCard: React.FC<TicketCardProps> = ({
   onDelete,
 }) => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const { user, users } = useAuth();
+  const { users } = useAuth();
   const { epics } = useApp();
   const { formatMessage } = useIntl();
   const { colors } = useTheme();

@@ -40,7 +40,7 @@ export const LoginForm: React.FC = () => {
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '100vh',
-        background: `linear-gradient(135deg, ${colors.primary.main} 0%, ${colors.secondary.main} 100%)`,
+        background: colors.primary.main,
       }}
     >
       <Paper sx={{ 
@@ -64,7 +64,7 @@ export const LoginForm: React.FC = () => {
           {formatMessage({ id: 'signInToContinue' })}
         </Typography>
         
-        <Box sx={{ mt: 3, mb: 2, p: 2, backgroundColor: 'rgba(102, 126, 234, 0.1)', borderRadius: '8px' }}>
+        {/* <Box sx={{ mt: 3, mb: 2, p: 2, backgroundColor: 'rgba(102, 126, 234, 0.1)', borderRadius: '8px' }}>
           <Typography variant="body2" color="text.secondary" sx={{ fontWeight: 600, mb: 1 }}>
             {formatMessage({ id: 'demoAccounts' })}
           </Typography>
@@ -74,16 +74,7 @@ export const LoginForm: React.FC = () => {
           <Typography variant="body2" color="text.secondary">
             • {formatMessage({ id: 'userAccount' })}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            • alice@example.com (Alice Smith)
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            • bob@example.com (Bob Johnson)
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            • sarah@example.com (Sarah Wilson)
-          </Typography>
-        </Box>
+        </Box> */}
 
         {error && (
           <Alert severity="error" sx={{ mb: 2 }}>

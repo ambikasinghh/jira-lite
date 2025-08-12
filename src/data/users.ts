@@ -4,7 +4,7 @@ import { generateInitials, generateAvatarColor } from '../utils/userUtils';
 export const mockUsers: User[] = [
   {
     id: '1',
-    email: 'admin@example.com',
+    email: 'admin@test.com',
     name: 'Admin User',
     role: 'admin',
     createdAt: new Date(),
@@ -13,7 +13,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '2',
-    email: 'user@example.com',
+    email: 'user@test.com',
     name: 'John Doe',
     role: 'user',
     createdAt: new Date(),
@@ -22,7 +22,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '3',
-    email: 'alice@example.com',
+    email: 'alice@test.com',
     name: 'Alice Smith',
     role: 'user',
     createdAt: new Date(),
@@ -31,7 +31,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '4',
-    email: 'bob@example.com',
+    email: 'bob@test.com',
     name: 'Bob Johnson',
     role: 'user',
     createdAt: new Date(),
@@ -40,7 +40,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '5',
-    email: 'sarah@example.com',
+    email: 'sarah@test.com',
     name: 'Sarah Wilson',
     role: 'user',
     createdAt: new Date(),

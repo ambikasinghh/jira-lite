@@ -12,10 +12,10 @@ const TestComponent = () => {
       </div>
       <div data-testid="user-name">{user?.name || 'no user'}</div>
       <div data-testid="user-role">{user?.role || 'no role'}</div>
-      <button onClick={() => login('admin@example.com')}>
+      <button onClick={() => login('admin@test.com')}>
         Login as Admin
       </button>
-      <button onClick={() => login('user@example.com')}>
+      <button onClick={() => login('user@test.com')}>
         Login as User
       </button>
       <button onClick={logout}>Logout</button>
